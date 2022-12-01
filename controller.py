@@ -1,7 +1,6 @@
 import view
 import rational_numbers
 import rational_numbers_init
-import logger as log
 import complex_numbers
 import complex_numbers_init
 
