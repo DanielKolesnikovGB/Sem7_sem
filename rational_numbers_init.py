@@ -4,4 +4,4 @@ def init(exp):
 
     pattern = '\s+'
     exp_list = re.split(pattern, exp)
-    
+    return exp_list

@@ -1,5 +1,6 @@
-def calc(exp, op_list, fin_list):
-
+def calc(exp,):
+    op_list = []
+    fin_list = []
     for i in range(len(exp)):
         if exp[i] == '*' or\
             exp[i] == '/' or\
