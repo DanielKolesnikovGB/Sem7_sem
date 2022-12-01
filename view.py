@@ -1,2 +1,2 @@
-def view(data):
+def result(data):
     print(data)
