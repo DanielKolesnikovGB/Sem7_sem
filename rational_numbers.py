@@ -1,4 +1,8 @@
-def calc(exp,):
+import re
+
+def calc(exppression):
+    pattern = '\s+'
+    exp = re.split(pattern, exppression)
     op_list = []
     fin_list = []
     for i in range(len(exp)):
