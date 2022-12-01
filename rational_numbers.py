@@ -15,7 +15,6 @@ def calc(exp,):
             exp[i] != '-':
             fin_list.append(int(exp[i]))
 
-    print('*' in op_list)
     for i in range(len(op_list)):
         if '*' in op_list :
             index = op_list.index('*')
