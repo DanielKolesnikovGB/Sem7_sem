@@ -17,7 +17,7 @@ def calc(exppression):
             exp[i] != '/' and\
             exp[i] != '+' and\
             exp[i] != '-':
-            fin_list.append(int(exp[i]))
+            fin_list.append(float(exp[i]))
 
     for i in range(len(op_list)):
         if '*' in op_list :
